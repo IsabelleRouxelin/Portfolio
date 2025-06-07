@@ -30,7 +30,7 @@ main{
 } Decide whether this adds something or is better without */
 
 ul {
-    color: #c7cacc
+    color: #c7cacc;
    width: fit-content;
    /* should a highlight be used here */
 }
@@ -44,7 +44,7 @@ form{
 /*Need to format form */
 
 footer {
-    color: #c7cacc
+    color: #c7cacc;
     font-size: 15px;
 }
 
