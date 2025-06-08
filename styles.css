@@ -1,18 +1,12 @@
-/*Determine how to format overall page more aesthetically
-Colour scheme:
-    Background: #0d0f12 (near black)
-    Text: #c7cacc (medium gray)
-    Accent: #c91b68 (neon red)
-    Hover??: #809fff (light pastel blue)*/
-
 * {
-    font-family:Arial, Helvetica, sans-serif;
-    margin: 10px;
+    font-family: "Arial", "Helvetica", sans-serif;
+    margin: 20px;
     padding: 10px;
-    background-color:#0d0f12 ;
 }
-a {
-    color: #809fff;
+
+body {
+    background-color:#0d0f12;
+    text-align: center;
 }
 
 header{
@@ -20,38 +14,38 @@ header{
     color: #809fff;
 }
 
-main{
-    font-size: 20px;
-    color: #c7cacc
+a {
+    color: #809fff;
 }
 
-/* :hover {
-    color: #809fff
-} Decide whether this adds something or is better without */
+main{
+    font-size: 20px;
+    color: #c7cacc;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
 
 ul {
-    color: #c7cacc;
-   width: fit-content;
-   /* should a highlight be used here */
+    color: #c91b68;
+   display: inline-block;
 }
 
 form{
     display: inline-block;
-    font-size: 16px;
-    border: dotted;
-    color: #c7cacc
+    padding: 1em;
+    border: 2px solid #c91b68;
+    border-radius: 1em;
+    box-sizing: border-box;
+    vertical-align: middle;
 }
-/*Need to format form */
 
 footer {
-    color: #c7cacc;
+    color: #c91b68;
     font-size: 15px;
-}
-
-button {
-   
-    display: inline-block;
-    width: 100px ;
-    height: 50px;
-    color: #c7cacc
+    text-align: center;
 }
